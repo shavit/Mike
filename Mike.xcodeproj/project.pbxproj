@@ -1,0 +1,973 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE8FEDB21FB5F56500A87352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FEDB11FB5F56500A87352 /* AppDelegate.swift */; };
+		DE8FEDB41FB5F56500A87352 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FEDB31FB5F56500A87352 /* ViewController.swift */; };
+		DE8FEDB61FB5F56500A87352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8FEDB51FB5F56500A87352 /* Assets.xcassets */; };
+		DE8FEDB91FB5F56500A87352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8FEDB71FB5F56500A87352 /* Main.storyboard */; };
+		DE8FEDC51FB5F56500A87352 /* MikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FEDC41FB5F56500A87352 /* MikeTests.swift */; };
+		DE8FEDD01FB5F56500A87352 /* MikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8FEDCF1FB5F56500A87352 /* MikeUITests.swift */; };
+		DE9056781FB64A43006EBCE8 /* MMagic.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE9056771FB64A43006EBCE8 /* MMagic.mm */; };
+		DE9056791FB64A43006EBCE8 /* MMagic.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE9056771FB64A43006EBCE8 /* MMagic.mm */; };
+		DE90567A1FB64A43006EBCE8 /* MMagic.mm in Sources */ = {isa = PBXBuildFile; fileRef = DE9056771FB64A43006EBCE8 /* MMagic.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE8FEDC11FB5F56500A87352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8FEDA61FB5F56500A87352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8FEDAD1FB5F56500A87352;
+			remoteInfo = Mike;
+		};
+		DE8FEDCC1FB5F56500A87352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE8FEDA61FB5F56500A87352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE8FEDAD1FB5F56500A87352;
+			remoteInfo = Mike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE8FEDF51FB5FA2F00A87352 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE8FEDAE1FB5F56500A87352 /* Mike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8FEDB11FB5F56500A87352 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE8FEDB31FB5F56500A87352 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE8FEDB51FB5F56500A87352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE8FEDB81FB5F56500A87352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8FEDBA1FB5F56500A87352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8FEDBB1FB5F56500A87352 /* Mike.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mike.entitlements; sourceTree = "<group>"; };
+		DE8FEDC01FB5F56500A87352 /* MikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8FEDC41FB5F56500A87352 /* MikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikeTests.swift; sourceTree = "<group>"; };
+		DE8FEDC61FB5F56500A87352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8FEDCB1FB5F56500A87352 /* MikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE8FEDCF1FB5F56500A87352 /* MikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MikeUITests.swift; sourceTree = "<group>"; };
+		DE8FEDD11FB5F56500A87352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8FEDE31FB5FA2F00A87352 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		DE8FEDE51FB5FA2F00A87352 /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		DE8FEDE81FB5FA2F00A87352 /* PhotoProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoProjectViewController.swift; sourceTree = "<group>"; };
+		DE8FEDEB1FB5FA2F00A87352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PhotoProjectViewController.xib; sourceTree = "<group>"; };
+		DE8FEDED1FB5FA2F00A87352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8FEDEE1FB5FA2F00A87352 /* PhotoProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoProject.entitlements; sourceTree = "<group>"; };
+		DE8FEDFE1FB5FA4400A87352 /* PhotoEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoEditingViewController.swift; sourceTree = "<group>"; };
+		DE8FEE011FB5FA4400A87352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PhotoEditingViewController.xib; sourceTree = "<group>"; };
+		DE8FEE031FB5FA4400A87352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8FEE041FB5FA4400A87352 /* PhotoEditing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhotoEditing.entitlements; sourceTree = "<group>"; };
+		DE9056721FB64A43006EBCE8 /* Mike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mike-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE9056731FB64A43006EBCE8 /* MikeTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MikeTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE9056741FB64A43006EBCE8 /* MikeUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MikeUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE9056751FB64A43006EBCE8 /* PhotoProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE9056761FB64A43006EBCE8 /* PhotoEditing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoEditing-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE9056771FB64A43006EBCE8 /* MMagic.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MMagic.mm; sourceTree = "<group>"; };
+		DE90567D1FB64A78006EBCE8 /* MMagic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMagic.h; sourceTree = "<group>"; };
+		DE9056801FB64E23006EBCE8 /* Magick++.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Magick++.h"; path = "lib/ImageMagick-7.0.7/include/ImageMagick-7/Magick++.h"; sourceTree = SOURCE_ROOT; };
+		DE9056821FB64E48006EBCE8 /* Blob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blob.h; sourceTree = "<group>"; };
+		DE9056831FB64E48006EBCE8 /* CoderInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoderInfo.h; sourceTree = "<group>"; };
+		DE9056841FB64E48006EBCE8 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		DE9056851FB64E48006EBCE8 /* Drawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		DE9056861FB64E48006EBCE8 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		DE9056871FB64E48006EBCE8 /* Functions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Functions.h; sourceTree = "<group>"; };
+		DE9056881FB64E48006EBCE8 /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		DE9056891FB64E48006EBCE8 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		DE90568A1FB64E48006EBCE8 /* Include.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Include.h; sourceTree = "<group>"; };
+		DE90568B1FB64E48006EBCE8 /* Montage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Montage.h; sourceTree = "<group>"; };
+		DE90568C1FB64E48006EBCE8 /* Pixels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pixels.h; sourceTree = "<group>"; };
+		DE90568D1FB64E48006EBCE8 /* ResourceLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResourceLimits.h; sourceTree = "<group>"; };
+		DE90568E1FB64E48006EBCE8 /* Statistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statistic.h; sourceTree = "<group>"; };
+		DE90568F1FB64E48006EBCE8 /* STL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STL.h; sourceTree = "<group>"; };
+		DE9056901FB64E48006EBCE8 /* TypeMetric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeMetric.h; sourceTree = "<group>"; };
+		DE9056921FB64E4D006EBCE8 /* animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animate.h; sourceTree = "<group>"; };
+		DE9056931FB64E4D006EBCE8 /* annotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = annotate.h; sourceTree = "<group>"; };
+		DE9056941FB64E4D006EBCE8 /* artifact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = artifact.h; sourceTree = "<group>"; };
+		DE9056951FB64E4D006EBCE8 /* attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = attribute.h; sourceTree = "<group>"; };
+		DE9056961FB64E4D006EBCE8 /* blob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blob.h; sourceTree = "<group>"; };
+		DE9056971FB64E4D006EBCE8 /* cache-view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "cache-view.h"; sourceTree = "<group>"; };
+		DE9056981FB64E4D006EBCE8 /* cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cache.h; sourceTree = "<group>"; };
+		DE9056991FB64E4D006EBCE8 /* channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channel.h; sourceTree = "<group>"; };
+		DE90569A1FB64E4D006EBCE8 /* cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cipher.h; sourceTree = "<group>"; };
+		DE90569B1FB64E4D006EBCE8 /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		DE90569C1FB64E4D006EBCE8 /* coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = coder.h; sourceTree = "<group>"; };
+		DE90569D1FB64E4D006EBCE8 /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = color.h; sourceTree = "<group>"; };
+		DE90569E1FB64E4D006EBCE8 /* colormap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colormap.h; sourceTree = "<group>"; };
+		DE90569F1FB64E4D006EBCE8 /* colorspace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = colorspace.h; sourceTree = "<group>"; };
+		DE9056A01FB64E4D006EBCE8 /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
+		DE9056A11FB64E4D006EBCE8 /* composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = composite.h; sourceTree = "<group>"; };
+		DE9056A21FB64E4D006EBCE8 /* compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compress.h; sourceTree = "<group>"; };
+		DE9056A31FB64E4D006EBCE8 /* configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = configure.h; sourceTree = "<group>"; };
+		DE9056A41FB64E4D006EBCE8 /* constitute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constitute.h; sourceTree = "<group>"; };
+		DE9056A51FB64E4D006EBCE8 /* decorate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decorate.h; sourceTree = "<group>"; };
+		DE9056A61FB64E4D006EBCE8 /* delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = delegate.h; sourceTree = "<group>"; };
+		DE9056A71FB64E4D006EBCE8 /* deprecate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deprecate.h; sourceTree = "<group>"; };
+		DE9056A81FB64E4D006EBCE8 /* display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		DE9056A91FB64E4D006EBCE8 /* distort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = distort.h; sourceTree = "<group>"; };
+		DE9056AA1FB64E4D006EBCE8 /* distribute-cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "distribute-cache.h"; sourceTree = "<group>"; };
+		DE9056AB1FB64E4D006EBCE8 /* draw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = draw.h; sourceTree = "<group>"; };
+		DE9056AC1FB64E4D006EBCE8 /* effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = effect.h; sourceTree = "<group>"; };
+		DE9056AD1FB64E4D006EBCE8 /* enhance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = enhance.h; sourceTree = "<group>"; };
+		DE9056AE1FB64E4D006EBCE8 /* exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exception.h; sourceTree = "<group>"; };
+		DE9056AF1FB64E4D006EBCE8 /* feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feature.h; sourceTree = "<group>"; };
+		DE9056B01FB64E4D006EBCE8 /* fourier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fourier.h; sourceTree = "<group>"; };
+		DE9056B11FB64E4D006EBCE8 /* fx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fx.h; sourceTree = "<group>"; };
+		DE9056B21FB64E4D006EBCE8 /* gem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gem.h; sourceTree = "<group>"; };
+		DE9056B31FB64E4D006EBCE8 /* geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = geometry.h; sourceTree = "<group>"; };
+		DE9056B41FB64E4D006EBCE8 /* histogram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = histogram.h; sourceTree = "<group>"; };
+		DE9056B51FB64E4D006EBCE8 /* identify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = identify.h; sourceTree = "<group>"; };
+		DE9056B61FB64E4D006EBCE8 /* image-view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "image-view.h"; sourceTree = "<group>"; };
+		DE9056B71FB64E4D006EBCE8 /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		DE9056B81FB64E4D006EBCE8 /* layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer.h; sourceTree = "<group>"; };
+		DE9056B91FB64E4D006EBCE8 /* linked-list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "linked-list.h"; sourceTree = "<group>"; };
+		DE9056BA1FB64E4D006EBCE8 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		DE9056BB1FB64E4D006EBCE8 /* locale_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = locale_.h; sourceTree = "<group>"; };
+		DE9056BC1FB64E4D006EBCE8 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		DE9056BD1FB64E4D006EBCE8 /* magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magic.h; sourceTree = "<group>"; };
+		DE9056BE1FB64E4D006EBCE8 /* magick-baseconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-baseconfig.h"; sourceTree = "<group>"; };
+		DE9056BF1FB64E4D006EBCE8 /* magick-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-config.h"; sourceTree = "<group>"; };
+		DE9056C01FB64E4D006EBCE8 /* magick-type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-type.h"; sourceTree = "<group>"; };
+		DE9056C11FB64E4E006EBCE8 /* magick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magick.h; sourceTree = "<group>"; };
+		DE9056C21FB64E4E006EBCE8 /* MagickCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagickCore.h; sourceTree = "<group>"; };
+		DE9056C31FB64E4E006EBCE8 /* matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
+		DE9056C41FB64E4E006EBCE8 /* memory_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memory_.h; sourceTree = "<group>"; };
+		DE9056C51FB64E4E006EBCE8 /* method-attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "method-attribute.h"; sourceTree = "<group>"; };
+		DE9056C61FB64E4E006EBCE8 /* methods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = methods.h; sourceTree = "<group>"; };
+		DE9056C71FB64E4E006EBCE8 /* mime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mime.h; sourceTree = "<group>"; };
+		DE9056C81FB64E4E006EBCE8 /* module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = module.h; sourceTree = "<group>"; };
+		DE9056C91FB64E4E006EBCE8 /* monitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = monitor.h; sourceTree = "<group>"; };
+		DE9056CA1FB64E4E006EBCE8 /* montage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = montage.h; sourceTree = "<group>"; };
+		DE9056CB1FB64E4E006EBCE8 /* morphology.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = morphology.h; sourceTree = "<group>"; };
+		DE9056CC1FB64E4E006EBCE8 /* nt-base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "nt-base.h"; sourceTree = "<group>"; };
+		DE9056CD1FB64E4E006EBCE8 /* opencl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opencl.h; sourceTree = "<group>"; };
+		DE9056CE1FB64E4E006EBCE8 /* option.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = option.h; sourceTree = "<group>"; };
+		DE9056CF1FB64E4E006EBCE8 /* paint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paint.h; sourceTree = "<group>"; };
+		DE9056D01FB64E4E006EBCE8 /* pixel-accessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixel-accessor.h"; sourceTree = "<group>"; };
+		DE9056D11FB64E4E006EBCE8 /* pixel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pixel.h; sourceTree = "<group>"; };
+		DE9056D21FB64E4E006EBCE8 /* policy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = policy.h; sourceTree = "<group>"; };
+		DE9056D31FB64E4E006EBCE8 /* prepress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prepress.h; sourceTree = "<group>"; };
+		DE9056D41FB64E4E006EBCE8 /* profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profile.h; sourceTree = "<group>"; };
+		DE9056D51FB64E4E006EBCE8 /* property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = property.h; sourceTree = "<group>"; };
+		DE9056D61FB64E4E006EBCE8 /* quantize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantize.h; sourceTree = "<group>"; };
+		DE9056D71FB64E4E006EBCE8 /* quantum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantum.h; sourceTree = "<group>"; };
+		DE9056D81FB64E4E006EBCE8 /* random_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = random_.h; sourceTree = "<group>"; };
+		DE9056D91FB64E4E006EBCE8 /* registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registry.h; sourceTree = "<group>"; };
+		DE9056DA1FB64E4E006EBCE8 /* resample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resample.h; sourceTree = "<group>"; };
+		DE9056DB1FB64E4E006EBCE8 /* resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resize.h; sourceTree = "<group>"; };
+		DE9056DC1FB64E4E006EBCE8 /* resource_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resource_.h; sourceTree = "<group>"; };
+		DE9056DD1FB64E4E006EBCE8 /* segment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = segment.h; sourceTree = "<group>"; };
+		DE9056DE1FB64E4E006EBCE8 /* semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = semaphore.h; sourceTree = "<group>"; };
+		DE9056DF1FB64E4E006EBCE8 /* shear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shear.h; sourceTree = "<group>"; };
+		DE9056E01FB64E4E006EBCE8 /* signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signature.h; sourceTree = "<group>"; };
+		DE9056E11FB64E4E006EBCE8 /* splay-tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "splay-tree.h"; sourceTree = "<group>"; };
+		DE9056E21FB64E4E006EBCE8 /* statistic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statistic.h; sourceTree = "<group>"; };
+		DE9056E31FB64E4E006EBCE8 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		DE9056E41FB64E4E006EBCE8 /* string_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = string_.h; sourceTree = "<group>"; };
+		DE9056E51FB64E4E006EBCE8 /* studio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = studio.h; sourceTree = "<group>"; };
+		DE9056E61FB64E4E006EBCE8 /* threshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threshold.h; sourceTree = "<group>"; };
+		DE9056E71FB64E4E006EBCE8 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
+		DE9056E81FB64E4E006EBCE8 /* token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = token.h; sourceTree = "<group>"; };
+		DE9056E91FB64E4E006EBCE8 /* transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = transform.h; sourceTree = "<group>"; };
+		DE9056EA1FB64E4E006EBCE8 /* type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = type.h; sourceTree = "<group>"; };
+		DE9056EB1FB64E4E006EBCE8 /* utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utility.h; sourceTree = "<group>"; };
+		DE9056EC1FB64E4E006EBCE8 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		DE9056ED1FB64E4E006EBCE8 /* vision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vision.h; sourceTree = "<group>"; };
+		DE9056EE1FB64E4E006EBCE8 /* widget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = widget.h; sourceTree = "<group>"; };
+		DE9056EF1FB64E4E006EBCE8 /* xml-tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "xml-tree.h"; sourceTree = "<group>"; };
+		DE9056F01FB64E4E006EBCE8 /* xwindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xwindow.h; sourceTree = "<group>"; };
+		DE9056F21FB64E52006EBCE8 /* animate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = animate.h; sourceTree = "<group>"; };
+		DE9056F31FB64E52006EBCE8 /* compare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compare.h; sourceTree = "<group>"; };
+		DE9056F41FB64E52006EBCE8 /* composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = composite.h; sourceTree = "<group>"; };
+		DE9056F51FB64E52006EBCE8 /* conjure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conjure.h; sourceTree = "<group>"; };
+		DE9056F61FB64E52006EBCE8 /* convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convert.h; sourceTree = "<group>"; };
+		DE9056F71FB64E52006EBCE8 /* deprecate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deprecate.h; sourceTree = "<group>"; };
+		DE9056F81FB64E52006EBCE8 /* display.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = display.h; sourceTree = "<group>"; };
+		DE9056F91FB64E52006EBCE8 /* drawing-wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "drawing-wand.h"; sourceTree = "<group>"; };
+		DE9056FA1FB64E52006EBCE8 /* identify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = identify.h; sourceTree = "<group>"; };
+		DE9056FB1FB64E52006EBCE8 /* import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = import.h; sourceTree = "<group>"; };
+		DE9056FC1FB64E52006EBCE8 /* magick-cli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-cli.h"; sourceTree = "<group>"; };
+		DE9056FD1FB64E52006EBCE8 /* magick-image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-image.h"; sourceTree = "<group>"; };
+		DE9056FE1FB64E52006EBCE8 /* magick-property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "magick-property.h"; sourceTree = "<group>"; };
+		DE9056FF1FB64E52006EBCE8 /* MagickWand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagickWand.h; sourceTree = "<group>"; };
+		DE9057001FB64E52006EBCE8 /* method-attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "method-attribute.h"; sourceTree = "<group>"; };
+		DE9057011FB64E52006EBCE8 /* mogrify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mogrify.h; sourceTree = "<group>"; };
+		DE9057021FB64E52006EBCE8 /* montage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = montage.h; sourceTree = "<group>"; };
+		DE9057031FB64E52006EBCE8 /* operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operation.h; sourceTree = "<group>"; };
+		DE9057041FB64E52006EBCE8 /* pixel-iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixel-iterator.h"; sourceTree = "<group>"; };
+		DE9057051FB64E52006EBCE8 /* pixel-wand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "pixel-wand.h"; sourceTree = "<group>"; };
+		DE9057061FB64E52006EBCE8 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		DE9057071FB64E52006EBCE8 /* wand-view.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "wand-view.h"; sourceTree = "<group>"; };
+		DE9057081FB64E52006EBCE8 /* wandcli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wandcli.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE8FEDAB1FB5F56500A87352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8FEDBD1FB5F56500A87352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8FEDC81FB5F56500A87352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE8FEDA51FB5F56500A87352 = {
+			isa = PBXGroup;
+			children = (
+				DE8FEDB01FB5F56500A87352 /* Mike */,
+				DE8FEDC31FB5F56500A87352 /* MikeTests */,
+				DE8FEDCE1FB5F56500A87352 /* MikeUITests */,
+				DE8FEDE71FB5FA2F00A87352 /* PhotoProject */,
+				DE8FEDFD1FB5FA4400A87352 /* PhotoEditing */,
+				DE8FEDE21FB5FA2F00A87352 /* Frameworks */,
+				DE8FEDAF1FB5F56500A87352 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE8FEDAF1FB5F56500A87352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE8FEDAE1FB5F56500A87352 /* Mike.app */,
+				DE8FEDC01FB5F56500A87352 /* MikeTests.xctest */,
+				DE8FEDCB1FB5F56500A87352 /* MikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE8FEDB01FB5F56500A87352 /* Mike */ = {
+			isa = PBXGroup;
+			children = (
+				DE90567F1FB64D6C006EBCE8 /* ImageMagick */,
+				DE8FEDB11FB5F56500A87352 /* AppDelegate.swift */,
+				DE8FEDB31FB5F56500A87352 /* ViewController.swift */,
+				DE9056771FB64A43006EBCE8 /* MMagic.mm */,
+				DE90567D1FB64A78006EBCE8 /* MMagic.h */,
+				DE8FEDB51FB5F56500A87352 /* Assets.xcassets */,
+				DE8FEDB71FB5F56500A87352 /* Main.storyboard */,
+				DE8FEDBA1FB5F56500A87352 /* Info.plist */,
+				DE8FEDBB1FB5F56500A87352 /* Mike.entitlements */,
+				DE9056721FB64A43006EBCE8 /* Mike-Bridging-Header.h */,
+				DE9056731FB64A43006EBCE8 /* MikeTests-Bridging-Header.h */,
+				DE9056741FB64A43006EBCE8 /* MikeUITests-Bridging-Header.h */,
+				DE9056751FB64A43006EBCE8 /* PhotoProject-Bridging-Header.h */,
+				DE9056761FB64A43006EBCE8 /* PhotoEditing-Bridging-Header.h */,
+			);
+			path = Mike;
+			sourceTree = "<group>";
+		};
+		DE8FEDC31FB5F56500A87352 /* MikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8FEDC41FB5F56500A87352 /* MikeTests.swift */,
+				DE8FEDC61FB5F56500A87352 /* Info.plist */,
+			);
+			path = MikeTests;
+			sourceTree = "<group>";
+		};
+		DE8FEDCE1FB5F56500A87352 /* MikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE8FEDCF1FB5F56500A87352 /* MikeUITests.swift */,
+				DE8FEDD11FB5F56500A87352 /* Info.plist */,
+			);
+			path = MikeUITests;
+			sourceTree = "<group>";
+		};
+		DE8FEDE21FB5FA2F00A87352 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE8FEDE31FB5FA2F00A87352 /* Photos.framework */,
+				DE8FEDE51FB5FA2F00A87352 /* PhotosUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE8FEDE71FB5FA2F00A87352 /* PhotoProject */ = {
+			isa = PBXGroup;
+			children = (
+				DE8FEDE81FB5FA2F00A87352 /* PhotoProjectViewController.swift */,
+				DE8FEDEA1FB5FA2F00A87352 /* PhotoProjectViewController.xib */,
+				DE8FEDED1FB5FA2F00A87352 /* Info.plist */,
+				DE8FEDEE1FB5FA2F00A87352 /* PhotoProject.entitlements */,
+			);
+			path = PhotoProject;
+			sourceTree = "<group>";
+		};
+		DE8FEDFD1FB5FA4400A87352 /* PhotoEditing */ = {
+			isa = PBXGroup;
+			children = (
+				DE8FEDFE1FB5FA4400A87352 /* PhotoEditingViewController.swift */,
+				DE8FEE001FB5FA4400A87352 /* PhotoEditingViewController.xib */,
+				DE8FEE031FB5FA4400A87352 /* Info.plist */,
+				DE8FEE041FB5FA4400A87352 /* PhotoEditing.entitlements */,
+			);
+			path = PhotoEditing;
+			sourceTree = "<group>";
+		};
+		DE90567F1FB64D6C006EBCE8 /* ImageMagick */ = {
+			isa = PBXGroup;
+			children = (
+				DE9056F11FB64E52006EBCE8 /* MagickWand */,
+				DE9056911FB64E4D006EBCE8 /* MagickCore */,
+				DE9056811FB64E48006EBCE8 /* Magick++ */,
+				DE9056801FB64E23006EBCE8 /* Magick++.h */,
+			);
+			path = ImageMagick;
+			sourceTree = "<group>";
+		};
+		DE9056811FB64E48006EBCE8 /* Magick++ */ = {
+			isa = PBXGroup;
+			children = (
+				DE9056821FB64E48006EBCE8 /* Blob.h */,
+				DE9056831FB64E48006EBCE8 /* CoderInfo.h */,
+				DE9056841FB64E48006EBCE8 /* Color.h */,
+				DE9056851FB64E48006EBCE8 /* Drawable.h */,
+				DE9056861FB64E48006EBCE8 /* Exception.h */,
+				DE9056871FB64E48006EBCE8 /* Functions.h */,
+				DE9056881FB64E48006EBCE8 /* Geometry.h */,
+				DE9056891FB64E48006EBCE8 /* Image.h */,
+				DE90568A1FB64E48006EBCE8 /* Include.h */,
+				DE90568B1FB64E48006EBCE8 /* Montage.h */,
+				DE90568C1FB64E48006EBCE8 /* Pixels.h */,
+				DE90568D1FB64E48006EBCE8 /* ResourceLimits.h */,
+				DE90568E1FB64E48006EBCE8 /* Statistic.h */,
+				DE90568F1FB64E48006EBCE8 /* STL.h */,
+				DE9056901FB64E48006EBCE8 /* TypeMetric.h */,
+			);
+			name = "Magick++";
+			path = "lib/ImageMagick-7.0.7/include/ImageMagick-7/Magick++";
+			sourceTree = SOURCE_ROOT;
+		};
+		DE9056911FB64E4D006EBCE8 /* MagickCore */ = {
+			isa = PBXGroup;
+			children = (
+				DE9056921FB64E4D006EBCE8 /* animate.h */,
+				DE9056931FB64E4D006EBCE8 /* annotate.h */,
+				DE9056941FB64E4D006EBCE8 /* artifact.h */,
+				DE9056951FB64E4D006EBCE8 /* attribute.h */,
+				DE9056961FB64E4D006EBCE8 /* blob.h */,
+				DE9056971FB64E4D006EBCE8 /* cache-view.h */,
+				DE9056981FB64E4D006EBCE8 /* cache.h */,
+				DE9056991FB64E4D006EBCE8 /* channel.h */,
+				DE90569A1FB64E4D006EBCE8 /* cipher.h */,
+				DE90569B1FB64E4D006EBCE8 /* client.h */,
+				DE90569C1FB64E4D006EBCE8 /* coder.h */,
+				DE90569D1FB64E4D006EBCE8 /* color.h */,
+				DE90569E1FB64E4D006EBCE8 /* colormap.h */,
+				DE90569F1FB64E4D006EBCE8 /* colorspace.h */,
+				DE9056A01FB64E4D006EBCE8 /* compare.h */,
+				DE9056A11FB64E4D006EBCE8 /* composite.h */,
+				DE9056A21FB64E4D006EBCE8 /* compress.h */,
+				DE9056A31FB64E4D006EBCE8 /* configure.h */,
+				DE9056A41FB64E4D006EBCE8 /* constitute.h */,
+				DE9056A51FB64E4D006EBCE8 /* decorate.h */,
+				DE9056A61FB64E4D006EBCE8 /* delegate.h */,
+				DE9056A71FB64E4D006EBCE8 /* deprecate.h */,
+				DE9056A81FB64E4D006EBCE8 /* display.h */,
+				DE9056A91FB64E4D006EBCE8 /* distort.h */,
+				DE9056AA1FB64E4D006EBCE8 /* distribute-cache.h */,
+				DE9056AB1FB64E4D006EBCE8 /* draw.h */,
+				DE9056AC1FB64E4D006EBCE8 /* effect.h */,
+				DE9056AD1FB64E4D006EBCE8 /* enhance.h */,
+				DE9056AE1FB64E4D006EBCE8 /* exception.h */,
+				DE9056AF1FB64E4D006EBCE8 /* feature.h */,
+				DE9056B01FB64E4D006EBCE8 /* fourier.h */,
+				DE9056B11FB64E4D006EBCE8 /* fx.h */,
+				DE9056B21FB64E4D006EBCE8 /* gem.h */,
+				DE9056B31FB64E4D006EBCE8 /* geometry.h */,
+				DE9056B41FB64E4D006EBCE8 /* histogram.h */,
+				DE9056B51FB64E4D006EBCE8 /* identify.h */,
+				DE9056B61FB64E4D006EBCE8 /* image-view.h */,
+				DE9056B71FB64E4D006EBCE8 /* image.h */,
+				DE9056B81FB64E4D006EBCE8 /* layer.h */,
+				DE9056B91FB64E4D006EBCE8 /* linked-list.h */,
+				DE9056BA1FB64E4D006EBCE8 /* list.h */,
+				DE9056BB1FB64E4D006EBCE8 /* locale_.h */,
+				DE9056BC1FB64E4D006EBCE8 /* log.h */,
+				DE9056BD1FB64E4D006EBCE8 /* magic.h */,
+				DE9056BE1FB64E4D006EBCE8 /* magick-baseconfig.h */,
+				DE9056BF1FB64E4D006EBCE8 /* magick-config.h */,
+				DE9056C01FB64E4D006EBCE8 /* magick-type.h */,
+				DE9056C11FB64E4E006EBCE8 /* magick.h */,
+				DE9056C21FB64E4E006EBCE8 /* MagickCore.h */,
+				DE9056C31FB64E4E006EBCE8 /* matrix.h */,
+				DE9056C41FB64E4E006EBCE8 /* memory_.h */,
+				DE9056C51FB64E4E006EBCE8 /* method-attribute.h */,
+				DE9056C61FB64E4E006EBCE8 /* methods.h */,
+				DE9056C71FB64E4E006EBCE8 /* mime.h */,
+				DE9056C81FB64E4E006EBCE8 /* module.h */,
+				DE9056C91FB64E4E006EBCE8 /* monitor.h */,
+				DE9056CA1FB64E4E006EBCE8 /* montage.h */,
+				DE9056CB1FB64E4E006EBCE8 /* morphology.h */,
+				DE9056CC1FB64E4E006EBCE8 /* nt-base.h */,
+				DE9056CD1FB64E4E006EBCE8 /* opencl.h */,
+				DE9056CE1FB64E4E006EBCE8 /* option.h */,
+				DE9056CF1FB64E4E006EBCE8 /* paint.h */,
+				DE9056D01FB64E4E006EBCE8 /* pixel-accessor.h */,
+				DE9056D11FB64E4E006EBCE8 /* pixel.h */,
+				DE9056D21FB64E4E006EBCE8 /* policy.h */,
+				DE9056D31FB64E4E006EBCE8 /* prepress.h */,
+				DE9056D41FB64E4E006EBCE8 /* profile.h */,
+				DE9056D51FB64E4E006EBCE8 /* property.h */,
+				DE9056D61FB64E4E006EBCE8 /* quantize.h */,
+				DE9056D71FB64E4E006EBCE8 /* quantum.h */,
+				DE9056D81FB64E4E006EBCE8 /* random_.h */,
+				DE9056D91FB64E4E006EBCE8 /* registry.h */,
+				DE9056DA1FB64E4E006EBCE8 /* resample.h */,
+				DE9056DB1FB64E4E006EBCE8 /* resize.h */,
+				DE9056DC1FB64E4E006EBCE8 /* resource_.h */,
+				DE9056DD1FB64E4E006EBCE8 /* segment.h */,
+				DE9056DE1FB64E4E006EBCE8 /* semaphore.h */,
+				DE9056DF1FB64E4E006EBCE8 /* shear.h */,
+				DE9056E01FB64E4E006EBCE8 /* signature.h */,
+				DE9056E11FB64E4E006EBCE8 /* splay-tree.h */,
+				DE9056E21FB64E4E006EBCE8 /* statistic.h */,
+				DE9056E31FB64E4E006EBCE8 /* stream.h */,
+				DE9056E41FB64E4E006EBCE8 /* string_.h */,
+				DE9056E51FB64E4E006EBCE8 /* studio.h */,
+				DE9056E61FB64E4E006EBCE8 /* threshold.h */,
+				DE9056E71FB64E4E006EBCE8 /* timer.h */,
+				DE9056E81FB64E4E006EBCE8 /* token.h */,
+				DE9056E91FB64E4E006EBCE8 /* transform.h */,
+				DE9056EA1FB64E4E006EBCE8 /* type.h */,
+				DE9056EB1FB64E4E006EBCE8 /* utility.h */,
+				DE9056EC1FB64E4E006EBCE8 /* version.h */,
+				DE9056ED1FB64E4E006EBCE8 /* vision.h */,
+				DE9056EE1FB64E4E006EBCE8 /* widget.h */,
+				DE9056EF1FB64E4E006EBCE8 /* xml-tree.h */,
+				DE9056F01FB64E4E006EBCE8 /* xwindow.h */,
+			);
+			name = MagickCore;
+			path = "lib/ImageMagick-7.0.7/include/ImageMagick-7/MagickCore";
+			sourceTree = SOURCE_ROOT;
+		};
+		DE9056F11FB64E52006EBCE8 /* MagickWand */ = {
+			isa = PBXGroup;
+			children = (
+				DE9056F21FB64E52006EBCE8 /* animate.h */,
+				DE9056F31FB64E52006EBCE8 /* compare.h */,
+				DE9056F41FB64E52006EBCE8 /* composite.h */,
+				DE9056F51FB64E52006EBCE8 /* conjure.h */,
+				DE9056F61FB64E52006EBCE8 /* convert.h */,
+				DE9056F71FB64E52006EBCE8 /* deprecate.h */,
+				DE9056F81FB64E52006EBCE8 /* display.h */,
+				DE9056F91FB64E52006EBCE8 /* drawing-wand.h */,
+				DE9056FA1FB64E52006EBCE8 /* identify.h */,
+				DE9056FB1FB64E52006EBCE8 /* import.h */,
+				DE9056FC1FB64E52006EBCE8 /* magick-cli.h */,
+				DE9056FD1FB64E52006EBCE8 /* magick-image.h */,
+				DE9056FE1FB64E52006EBCE8 /* magick-property.h */,
+				DE9056FF1FB64E52006EBCE8 /* MagickWand.h */,
+				DE9057001FB64E52006EBCE8 /* method-attribute.h */,
+				DE9057011FB64E52006EBCE8 /* mogrify.h */,
+				DE9057021FB64E52006EBCE8 /* montage.h */,
+				DE9057031FB64E52006EBCE8 /* operation.h */,
+				DE9057041FB64E52006EBCE8 /* pixel-iterator.h */,
+				DE9057051FB64E52006EBCE8 /* pixel-wand.h */,
+				DE9057061FB64E52006EBCE8 /* stream.h */,
+				DE9057071FB64E52006EBCE8 /* wand-view.h */,
+				DE9057081FB64E52006EBCE8 /* wandcli.h */,
+			);
+			name = MagickWand;
+			path = "lib/ImageMagick-7.0.7/include/ImageMagick-7/MagickWand";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE8FEDAD1FB5F56500A87352 /* Mike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8FEDD41FB5F56500A87352 /* Build configuration list for PBXNativeTarget "Mike" */;
+			buildPhases = (
+				DE8FEDAA1FB5F56500A87352 /* Sources */,
+				DE8FEDAB1FB5F56500A87352 /* Frameworks */,
+				DE8FEDAC1FB5F56500A87352 /* Resources */,
+				DE8FEDF51FB5FA2F00A87352 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mike;
+			productName = Mike;
+			productReference = DE8FEDAE1FB5F56500A87352 /* Mike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE8FEDBF1FB5F56500A87352 /* MikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8FEDD71FB5F56500A87352 /* Build configuration list for PBXNativeTarget "MikeTests" */;
+			buildPhases = (
+				DE8FEDBC1FB5F56500A87352 /* Sources */,
+				DE8FEDBD1FB5F56500A87352 /* Frameworks */,
+				DE8FEDBE1FB5F56500A87352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8FEDC21FB5F56500A87352 /* PBXTargetDependency */,
+			);
+			name = MikeTests;
+			productName = MikeTests;
+			productReference = DE8FEDC01FB5F56500A87352 /* MikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE8FEDCA1FB5F56500A87352 /* MikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE8FEDDA1FB5F56500A87352 /* Build configuration list for PBXNativeTarget "MikeUITests" */;
+			buildPhases = (
+				DE8FEDC71FB5F56500A87352 /* Sources */,
+				DE8FEDC81FB5F56500A87352 /* Frameworks */,
+				DE8FEDC91FB5F56500A87352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE8FEDCD1FB5F56500A87352 /* PBXTargetDependency */,
+			);
+			name = MikeUITests;
+			productName = MikeUITests;
+			productReference = DE8FEDCB1FB5F56500A87352 /* MikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE8FEDA61FB5F56500A87352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Shavit Tzuriel";
+				TargetAttributes = {
+					DE8FEDAD1FB5F56500A87352 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+					};
+					DE8FEDBF1FB5F56500A87352 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE8FEDAD1FB5F56500A87352;
+					};
+					DE8FEDCA1FB5F56500A87352 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DE8FEDAD1FB5F56500A87352;
+					};
+				};
+			};
+			buildConfigurationList = DE8FEDA91FB5F56500A87352 /* Build configuration list for PBXProject "Mike" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE8FEDA51FB5F56500A87352;
+			productRefGroup = DE8FEDAF1FB5F56500A87352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE8FEDAD1FB5F56500A87352 /* Mike */,
+				DE8FEDBF1FB5F56500A87352 /* MikeTests */,
+				DE8FEDCA1FB5F56500A87352 /* MikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE8FEDAC1FB5F56500A87352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8FEDB61FB5F56500A87352 /* Assets.xcassets in Resources */,
+				DE8FEDB91FB5F56500A87352 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8FEDBE1FB5F56500A87352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8FEDC91FB5F56500A87352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE8FEDAA1FB5F56500A87352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8FEDB41FB5F56500A87352 /* ViewController.swift in Sources */,
+				DE8FEDB21FB5F56500A87352 /* AppDelegate.swift in Sources */,
+				DE9056781FB64A43006EBCE8 /* MMagic.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8FEDBC1FB5F56500A87352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8FEDC51FB5F56500A87352 /* MikeTests.swift in Sources */,
+				DE9056791FB64A43006EBCE8 /* MMagic.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE8FEDC71FB5F56500A87352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE8FEDD01FB5F56500A87352 /* MikeUITests.swift in Sources */,
+				DE90567A1FB64A43006EBCE8 /* MMagic.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE8FEDC21FB5F56500A87352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8FEDAD1FB5F56500A87352 /* Mike */;
+			targetProxy = DE8FEDC11FB5F56500A87352 /* PBXContainerItemProxy */;
+		};
+		DE8FEDCD1FB5F56500A87352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE8FEDAD1FB5F56500A87352 /* Mike */;
+			targetProxy = DE8FEDCC1FB5F56500A87352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE8FEDB71FB5F56500A87352 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8FEDB81FB5F56500A87352 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE8FEDEA1FB5FA2F00A87352 /* PhotoProjectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8FEDEB1FB5FA2F00A87352 /* Base */,
+			);
+			name = PhotoProjectViewController.xib;
+			sourceTree = "<group>";
+		};
+		DE8FEE001FB5FA4400A87352 /* PhotoEditingViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE8FEE011FB5FA4400A87352 /* Base */,
+			);
+			name = PhotoEditingViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE8FEDD21FB5F56500A87352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE8FEDD31FB5F56500A87352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		DE8FEDD51FB5F56500A87352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mike/Mike.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M87Q25Q5K3;
+				HEADER_SEARCH_PATHS = "lib/ImageMagick-7.0.7/include/ImageMagick-7/**";
+				INFOPLIST_FILE = Mike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavittzuriel.Mike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mike/Mike-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DE8FEDD61FB5F56500A87352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Mike/Mike.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M87Q25Q5K3;
+				HEADER_SEARCH_PATHS = "lib/ImageMagick-7.0.7/include/ImageMagick-7/**";
+				INFOPLIST_FILE = Mike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavittzuriel.Mike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mike/Mike-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		DE8FEDD81FB5F56500A87352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M87Q25Q5K3;
+				INFOPLIST_FILE = MikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavittzuriel.MikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mike/MikeTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mike.app/Contents/MacOS/Mike";
+			};
+			name = Debug;
+		};
+		DE8FEDD91FB5F56500A87352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M87Q25Q5K3;
+				INFOPLIST_FILE = MikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavittzuriel.MikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mike/MikeTests-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mike.app/Contents/MacOS/Mike";
+			};
+			name = Release;
+		};
+		DE8FEDDB1FB5F56500A87352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M87Q25Q5K3;
+				INFOPLIST_FILE = MikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavittzuriel.MikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mike/MikeUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Mike;
+			};
+			name = Debug;
+		};
+		DE8FEDDC1FB5F56500A87352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = M87Q25Q5K3;
+				INFOPLIST_FILE = MikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shavittzuriel.MikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mike/MikeUITests-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Mike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE8FEDA91FB5F56500A87352 /* Build configuration list for PBXProject "Mike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8FEDD21FB5F56500A87352 /* Debug */,
+				DE8FEDD31FB5F56500A87352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8FEDD41FB5F56500A87352 /* Build configuration list for PBXNativeTarget "Mike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8FEDD51FB5F56500A87352 /* Debug */,
+				DE8FEDD61FB5F56500A87352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8FEDD71FB5F56500A87352 /* Build configuration list for PBXNativeTarget "MikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8FEDD81FB5F56500A87352 /* Debug */,
+				DE8FEDD91FB5F56500A87352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE8FEDDA1FB5F56500A87352 /* Build configuration list for PBXNativeTarget "MikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE8FEDDB1FB5F56500A87352 /* Debug */,
+				DE8FEDDC1FB5F56500A87352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE8FEDA61FB5F56500A87352 /* Project object */;
+}
